@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/src/css/style.css">
-  <title>Портал «Music Box» user-016382a3ec8ddeff</title>
-</head>
-<body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/app.css" />
+    <title>Портал «Music Box» user-016382a3ec8ddeff</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__menu menu-header">
+          <div class="menu-header__logo">
+            <img src="./images/logo.svg" alt="logo" />
+            <a class="menu-header__link" href="#">Music Box</a>
+          </div>
+          <nav class="menu-header__navigation">
+            <ul class="menu-header__list">
+              <li class="menu-header__item">
+                <a class="menu-header__link" href="#">Главная</a>
+              </li>
+              <li class="menu-header__item">
+                <a class="menu-header__link" href="#">Каталог</a>
+              </li>
+              <li class="menu-header__item">
+                <a class="menu-header__link" href="#">Исполнители</a>
+              </li>
+              <li class="menu-header__item">
+                <a class="menu-header__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="menu-header__search search-menu">
+            <input class="search-menu__input" type="text" placeholder="поиск..."/>
+          </form>
+        </div>
+      </header>
 
-</body>
+      <main class="main">
+        
+        <section class="first-section" id="page-description">
+          <div class="first-section__container">
+            <h1 class="first-section__title">Онлайн музыка где угодно</h1>
+            <h2 class="first-section__subtitle">без ограничений</h2>
+            <p class="first-section__text">
+              Получите доступ всего за несколько шагов. Заполните форму ниже и
+              откройте мир музыки
+            </p>
+            <form class="first-section__form">
+              <div class="first-section__input">
+                <input class="first-section__input-item" type="text" placeholder="Имя"/>
+                <input class="first-section__input-item" type="text" placeholder="Email"/>
+              </div>
+              <button class="first-section__button" type="submit">
+                Получить доступ
+              </button>
+            </form>
+          </div>
+        </section>
+        
+      </main>
+
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>

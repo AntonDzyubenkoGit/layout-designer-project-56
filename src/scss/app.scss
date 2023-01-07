@@ -1,0 +1,123 @@
+@import "reset";
+@import "general";
+@import "variables";
+@import "header";
+@import "footer";
+
+[class*="container"] {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+//-------------[FIRST-SECTION]----------------------------------------------
+.first-section {
+  padding: 200px 0;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  // .first-section__container
+  &__container {
+    text-align: center;
+  }
+  // .first-section__title
+  &__title {
+  }
+  // .first-section__subtitle
+  &__subtitle {
+    margin-bottom: 31px;
+  }
+  // .first-section__text
+  &__text {
+    margin-bottom: 17px;
+  }
+  // .first-section__form
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    max-width: 570px;
+    min-height: 50px;
+    margin: 0 auto;
+  }
+  // .first-section__input
+  &__input {
+    flex: 0 1 auto;
+    width: 100%;
+    display: flex;
+    column-gap: 24px;
+  }
+  // .first-section__input-item
+  &__input-item {
+    flex: 0 1 50%;
+    min-width: 270px;
+    background-color: transparent;
+    padding: 16px 0 16px 20px;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+
+    font-size: 14px;
+    color: #fff;
+    &::placeholder {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+  // .first-section__button
+  &__button {
+    flex: 0 1 100%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: $color-green;
+    font-size: 13.3px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color 0.5s ease 0s;
+    &:hover {
+      background-color: #2a945b;
+    }
+  }
+}
+
+//-------------[FIRST-SECTION-MEDIA]----------------------------------------------
+@media (max-width: 720px) {
+  .first-section {
+    padding: 200px 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .first-section {
+    padding: 200px 20px;
+  }
+  .first-section__input {
+    flex-wrap: wrap;
+    row-gap: 24px;
+  }
+  .first-section__input-item {
+    flex: 1 1 100%;
+    height: 50px;
+  }
+}
+
+@media (max-width: 414px) {
+  .first-section {
+    padding: 248px 20px 200px;
+  }
+  .first-section__subtitle {
+    margin-bottom: 16px;
+  }
+  .first-section__text {
+    margin-bottom: 16px;
+  }
+}
