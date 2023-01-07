@@ -121,3 +121,107 @@
     margin-bottom: 16px;
   }
 }
+
+//-------------[PRICING-SECTION]----------------------------------------------
+.pricing-section {
+  padding: 100px 0 0;
+  // .pricing-section__container
+  &__container {
+  }
+  // .pricing-section__title
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 36px;
+  }
+  // .pricing-section__items
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+  // .pricing-section__item
+  &__item {
+    flex: 1 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  // .pricing-section__text
+  &__text {
+    text-align: center;
+  }
+}
+.item-pricing {
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  &:nth-child(1) {
+    background: url("../images/subscribe_1.png") center center / cover no-repeat;
+  }
+  &:nth-child(2) {
+    background: url("../images/subscribe_2.png") center center / cover no-repeat;
+  }
+  &:nth-child(3) {
+    background: url("../images/subscribe_3.png") center center / cover no-repeat;
+  }
+  // .item-pricing__title
+  &__title {
+    padding-top: 24px;
+  }
+  // .item-pricing__value
+  &__value {
+    padding-top: 200px;
+    font-size: 64px;
+    line-height: 1em;
+
+    & span {
+      font-size: 32px;
+      vertical-align: text-top;
+    }
+  }
+  // .item-pricing__button
+  &__button {
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid $color-dark-gray;
+    padding: 20px 114px;
+    color: $color-dark-gray;
+    line-height: 150%;
+    transition: all 0.5s ease 0s;
+    &:hover {
+      background: $color-dark-gray;
+      color: $color-dark-black;
+    }
+  }
+  // .item-pricing__text
+  &__text {
+    padding: 64px 0;
+    text-align: center;
+    font-size: 12.8px;
+    line-height: 150%;
+  }
+}
+
+//-------------[PRICING-SECTION-MEDIA]----------------------------------------------
+@media (max-width: 1200px) {
+  .pricing-section__container {
+  padding: 0 20px;
+  }
+  .pricing-section__items {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 414px) {
+  .item-pricing__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .item-pricing__text {
+    padding: 64px 0 49px;
+  }
+}
