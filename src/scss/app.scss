@@ -594,7 +594,8 @@
 
 //-------------[DISCOGRAPHY-SECTION]----------------------------------------------
 .discography-section {
-  padding-top: 100px;
+  //padding-top: 100px;
+  padding: 100px 20px 0;
   // .discography-section__container
   &__container {
   }
@@ -646,7 +647,7 @@
 //-------------[DISCOGRAPHY-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
   .discography-section__container {
-    padding: 0 20px;
+    //padding: 0 20px;
   }
   .discography-section__items {
     grid-template-columns: repeat(3, 1fr);
