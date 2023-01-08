@@ -1041,6 +1041,7 @@ footer h2 {
   font-weight: 700;
   text-transform: none;
   color: #ffffff;
+  white-space: nowrap;
 }
 .card-discography__year {
   font-size: 16px;
