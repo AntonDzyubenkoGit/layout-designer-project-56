@@ -1062,9 +1062,12 @@ footer h2 {
   }
 }
 @media (max-width: 414px) {
+  .discography-section {
+    padding: 100px 10px 0;
+  }
   .discography-section__items {
     grid-template-columns: repeat(2, 138px);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 206px repeat(2, 1fr);
   }
   .card-discography__img {
     width: 137px;
