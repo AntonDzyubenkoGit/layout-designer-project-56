@@ -518,15 +518,6 @@
 }
 
 //-------------[POPULAR-SECTION]----------------------------------------------
-.popular-section h3 {
-  font-size: 12.8px;
-  line-height: 150%;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 0;
-  color: $color-white;
-}
-
 .popular-section {
   padding-top: 100px;
   // .popular-section__container
@@ -569,6 +560,12 @@
   }
   // .track-popular__title
   &__title {
+    font-size: 12.8px;
+    line-height: 150%;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    color: $color-white;
   }
   // .track-popular__songer
   &__songer {
@@ -592,5 +589,82 @@
 @media (max-width: 650px) {
   .popular-section__track {
     flex: 1 0 100%;
+  }
+}
+
+//-------------[DISCOGRAPHY-SECTION]----------------------------------------------
+.discography-section {
+  padding-top: 100px;
+  // .discography-section__container
+  &__container {
+  }
+  // .discography-section__title
+  &__title {
+    color: $color-white;
+  }
+  // .discography-section__items
+  &__items {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 25px;
+  }
+  // .discography-section__card
+  &__card {
+  }
+}
+.card-discography {
+  display: flex;
+  flex-direction: column;
+  // .card-discography__img
+  &__img {
+    max-width: 250px;
+    max-height: 250px;
+    & img {
+      width: 100%;
+    }
+  }
+  // .card-discography__title
+  &__title {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: none;
+    color: $color-white;
+  }
+  // .card-discography__year
+  &__year {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+//-------------[DISCOGRAPHY-SECTION-MEDIA]----------------------------------------------
+@media (max-width: 1200px) {
+  .discography-section__container {
+    padding: 0 20px;
+  }
+  .discography-section__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .discography-section__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 414px) {
+  .discography-section__items {
+    grid-template-columns: repeat(2, 138px);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .card-discography__img {
+    width: 137px;
+    height: 137px;
   }
 }

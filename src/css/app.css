@@ -925,15 +925,6 @@ footer h2 {
     margin-top: 24px;
   }
 }
-.popular-section h3 {
-  font-size: 12.8px;
-  line-height: 150%;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 0;
-  color: #ffffff;
-}
-
 .popular-section {
   padding-top: 100px;
 }
@@ -982,6 +973,14 @@ footer h2 {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
 }
+.track-popular__title {
+  font-size: 12.8px;
+  line-height: 150%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
+}
 .track-popular__songer {
   font-size: 12.8px;
   line-height: 150%;
@@ -1001,5 +1000,73 @@ footer h2 {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
+  }
+}
+.discography-section {
+  padding-top: 100px;
+}
+.discography-section__title {
+  color: #ffffff;
+}
+.discography-section__items {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 1fr);
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 25px;
+}
+.card-discography {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.card-discography__img {
+  max-width: 250px;
+  max-height: 250px;
+}
+.card-discography__img img {
+  width: 100%;
+}
+.card-discography__title {
+  margin-top: 18px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: none;
+  color: #ffffff;
+}
+.card-discography__year {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@media (max-width: 1200px) {
+  .discography-section__container {
+    padding: 0 20px;
+  }
+  .discography-section__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .discography-section__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 414px) {
+  .discography-section__items {
+    grid-template-columns: repeat(2, 138px);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .card-discography__img {
+    width: 137px;
+    height: 137px;
   }
 }/*# sourceMappingURL=app.css.map */
