@@ -551,6 +551,14 @@ h4 {
     padding: 64px 0 49px;
   }
 }
+@media (max-width: 400px) {
+  .item-pricing {
+    padding: 0;
+  }
+  .item-pricing__button {
+    padding: 20px 80px;
+  }
+}
 .news-section {
   padding: 100px 0 0;
 }
