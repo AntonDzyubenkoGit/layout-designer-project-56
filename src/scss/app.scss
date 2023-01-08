@@ -516,3 +516,81 @@
     margin-top: 24px;
   }
 }
+
+//-------------[POPULAR-SECTION]----------------------------------------------
+.popular-section h3 {
+  font-size: 12.8px;
+  line-height: 150%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  color: $color-white;
+}
+
+.popular-section {
+  padding-top: 100px;
+  // .popular-section__container
+  &__container {
+  }
+  // .popular-section__title
+  &__title {
+    color: $color-white;
+  }
+  // .popular-section__items
+  &__items {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 25px;
+  }
+  // .popular-section__track
+  &__track {
+    flex: 0 1 calc(50% - 50px);
+  }
+}
+
+.track-popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // .track-popular__img
+  &__img {
+    width: 55px;
+    height: 55px;
+    margin-right: 15px;
+    & img {
+      width: 100%;
+    }
+  }
+  // .track-popular__info
+  &__info {
+    flex: 1 0 auto;
+  }
+  // .track-popular__title
+  &__title {
+  }
+  // .track-popular__songer
+  &__songer {
+    font-size: 12.8px;
+    line-height: 150%;
+  }
+  // .track-popular__time
+  &__time {
+    font-size: 12.8px;
+    line-height: 150%;
+  }
+}
+
+//-------------[POPULAR-SECTION-MEDIA]----------------------------------------------
+@media (max-width: 1200px) {
+  .popular-section__container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .popular-section__track {
+    flex: 1 0 100%;
+  }
+}
