@@ -33,6 +33,10 @@
       text-decoration: underline;
     }
   }
+  // .menu-header__link-white
+  &__link-white {
+    color: $color-white;
+  }
   // .menu-header__navigation
   &__navigation {
     flex: 1 1 auto;
