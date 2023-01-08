@@ -391,6 +391,10 @@ footer h2 {
   margin: 0 auto;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1041,7 +1045,6 @@ footer h2 {
   font-weight: 700;
   text-transform: none;
   color: #ffffff;
-  white-space: nowrap;
 }
 .card-discography__year {
   font-size: 16px;
