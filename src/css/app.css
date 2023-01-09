@@ -948,9 +948,9 @@ footer h2 {
   row-gap: 25px;
 }
 .popular-section__track {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(50% - 50px);
-          flex: 0 1 calc(50% - 50px);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(50% - 50px);
+          flex: 1 0 calc(50% - 50px);
 }
 
 .track-popular {
