@@ -535,7 +535,7 @@ footer h2 {
   }
 }
 .pricing-section {
-  padding: 100px 0 0;
+  padding: 100px 20px 0;
   color: #ffffff;
 }
 .pricing-section__title {
@@ -626,9 +626,6 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
-  .pricing-section__container {
-    padding: 0 20px;
-  }
   .pricing-section__items {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -653,7 +650,7 @@ footer h2 {
   }
 }
 .news-section {
-  padding: 100px 0 0;
+  padding: 100px 20px 0;
 }
 .news-section__title {
   text-align: center;
@@ -737,9 +734,6 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
-  .news-section__container {
-    padding: 0 20px;
-  }
   .news-section__item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
