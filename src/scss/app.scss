@@ -13,10 +13,6 @@
   white-space: nowrap;
 }
 
-.mt-16 {
-  margin-top: 16px;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -402,7 +398,7 @@
     font-size: 12.8px;
     line-height: 150%;
   }
-  
+
   .item-news__btn {
     font-size: 12.8px;
     line-height: 150%;
@@ -437,8 +433,7 @@
   // .body-application__info
   &__info {
     line-height: 150%;
-    & span {
-      display: inline-block;
+    &:nth-child(2) {
       margin-top: 16px;
     }
   }
@@ -489,6 +484,9 @@
   .body-application__info {
     font-size: 15.5px;
     flex: 0 1 100%;
+    &:nth-child(2) {
+      margin-top: 20px;
+    }
   }
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------

@@ -395,10 +395,6 @@ footer h2 {
   white-space: nowrap;
 }
 
-.mt-16 {
-  margin-top: 16px;
-}
-
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -875,8 +871,7 @@ footer h2 {
 .body-application__info {
   line-height: 150%;
 }
-.body-application__info span {
-  display: inline-block;
+.body-application__info:nth-child(2) {
   margin-top: 16px;
 }
 .body-application__btn {
@@ -930,6 +925,9 @@ footer h2 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
+  }
+  .body-application__info:nth-child(2) {
+    margin-top: 20px;
   }
 }
 .first-artist-section {
