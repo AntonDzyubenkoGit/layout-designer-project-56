@@ -274,6 +274,14 @@ h4 {
   }
 }
 @media (max-width: 414px) {
+  .menu-header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .menu-header__navigation {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -289,9 +297,10 @@ h4 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    row-gap: 0px;
+    row-gap: 3.5px;
   }
   .menu-header__search {
+    margin-top: 2px;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
