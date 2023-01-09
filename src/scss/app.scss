@@ -369,7 +369,7 @@
 
 //-------------[APPLICATION-SECTION]----------------------------------------------
 .application-section {
-  padding: 100px 0;
+  padding: 100px 20px;
   // .application-section__container
   &__container {
   }
@@ -428,7 +428,7 @@
 //-------------[APPLICATION-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
   .application-section__container {
-    padding: 0 20px;
+    //padding: 0 20px;
   }
   .application-section__body {
     flex-wrap: wrap;

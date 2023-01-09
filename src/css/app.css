@@ -779,7 +779,7 @@ footer h2 {
   }
 }
 .application-section {
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 .application-section__title {
   text-align: center;
@@ -836,9 +836,6 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
-  .application-section__container {
-    padding: 0 20px;
-  }
   .application-section__body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
