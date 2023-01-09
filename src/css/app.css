@@ -888,11 +888,6 @@ footer h2 {
   background: #cacaca;
   color: #08020d;
 }
-.body-application__img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
-}
 .body-application__img img {
   width: 100%;
 }
@@ -922,7 +917,7 @@ footer h2 {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
-    max-width: 374px;
+    width: 374px;
   }
 }
 .first-artist-section {

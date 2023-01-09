@@ -451,7 +451,7 @@
   }
   // .body-application__img
   &__img {
-    flex: 0 1 100%;
+    //flex: 0 1 100%;
     & img {
       width: 100%;
     }
@@ -476,7 +476,7 @@
 @media (max-width: 414px) {
   .body-application__info {
     flex: 1 1 100%;
-    max-width: 374px;
+    width: 374px;
   }
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------
