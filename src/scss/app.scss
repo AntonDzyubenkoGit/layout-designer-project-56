@@ -245,6 +245,11 @@
 }
 
 @media (max-width: 414px) {
+  .pricing-section__title {
+    text-align: center;
+    margin: -5px 0 50px;
+    line-height: 36px;
+  }
   .item-pricing {
     height: 595px;
   }
