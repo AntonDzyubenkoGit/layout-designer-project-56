@@ -530,6 +530,7 @@ footer h2 {
 }
 @media (max-width: 414px) {
   .first-section {
+    height: 851px;
     padding: 248px 20px 200px;
   }
   .first-section__subtitle {
