@@ -260,6 +260,12 @@
     margin-top: 14px;
     font-weight: normal;
   }
+  .item-pricing__value {
+    & span {
+      display: inline-block;
+      margin-top: 6px;
+    }
+  }
   .item-pricing__button {
     padding: 14px 114px;
   }
