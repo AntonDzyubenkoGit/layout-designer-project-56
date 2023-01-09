@@ -389,6 +389,10 @@
 @media (max-width: 414px) {
   .item-news__title {
     margin-bottom: 16px;
+    text-transform: none;
+  }
+  .item-news__text {
+    font-size: 15.5px;
   }
   .item-news__label {
     font-size: 12.8px;
@@ -398,6 +402,7 @@
     font-size: 12.8px;
     line-height: 150%;
   }
+  
   .item-news__btn {
     font-size: 12.8px;
     line-height: 150%;
@@ -482,7 +487,7 @@
     box-sizing: border-box;
   }
   .body-application__info {
-    font-size: 15.8px;
+    font-size: 15.5px;
     flex: 0 1 100%;
   }
 }
