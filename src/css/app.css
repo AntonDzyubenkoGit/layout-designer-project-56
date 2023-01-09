@@ -439,6 +439,7 @@ footer h2 {
   row-gap: 24px;
   max-width: 570px;
   min-height: 50px;
+  max-height: 131px;
   margin: 0 auto;
 }
 .first-section__input {
@@ -454,9 +455,9 @@ footer h2 {
           column-gap: 24px;
 }
 .first-section__input-item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50%;
-          flex: 0 1 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
   min-width: 270px;
   background-color: transparent;
   padding: 16px 0 16px 20px;
@@ -486,9 +487,9 @@ footer h2 {
   font-size: 14px;
 }
 .first-section__button {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
   padding: 20px 30px;
   border-radius: 5px;
   background-color: #34c176;

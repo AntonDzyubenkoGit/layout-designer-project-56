@@ -54,6 +54,7 @@
     row-gap: 24px;
     max-width: 570px;
     min-height: 50px;
+    max-height: 131px;
     margin: 0 auto;
   }
   // .first-section__input
@@ -65,7 +66,7 @@
   }
   // .first-section__input-item
   &__input-item {
-    flex: 0 1 50%;
+    flex: 1 1 50%;
     min-width: 270px;
     background-color: transparent;
     padding: 16px 0 16px 20px;
@@ -81,7 +82,7 @@
   }
   // .first-section__button
   &__button {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
     padding: 20px 30px;
     border-radius: 5px;
     background-color: $color-green;
