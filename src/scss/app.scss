@@ -523,7 +523,8 @@
 
 //-------------[POPULAR-SECTION]----------------------------------------------
 .popular-section {
-  padding-top: 100px;
+  //padding-top: 100px;
+  padding: 100px 20px 0;
   // .popular-section__container
   &__container {
   }
@@ -586,7 +587,7 @@
 //-------------[POPULAR-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
   .popular-section__container {
-    padding: 0 20px;
+    //padding: 0 20px;
   }
 }
 
@@ -680,7 +681,8 @@
 
 //-------------[SIMILAR-SECTION]----------------------------------------------
 .similar-section {
-  padding-top: 100px;
+  //padding-top: 100px;
+  padding: 100px 20px 0;
   margin-bottom: 100px;
   // .similar-section__container
   &__container {
@@ -733,7 +735,7 @@
 //-------------[SIMILAR-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
   .similar-section__container {
-    padding: 0 20px;
+    //padding: 0 20px;
   }
   .similar-section__items {
     grid-template-columns: repeat(3, 1fr);

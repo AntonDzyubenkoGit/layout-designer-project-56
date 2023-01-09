@@ -930,7 +930,7 @@ footer h2 {
   }
 }
 .popular-section {
-  padding-top: 100px;
+  padding: 100px 20px 0;
 }
 .popular-section__title {
   color: #ffffff;
@@ -994,11 +994,6 @@ footer h2 {
   line-height: 150%;
 }
 
-@media (max-width: 1200px) {
-  .popular-section__container {
-    padding: 0 20px;
-  }
-}
 @media (max-width: 650px) {
   .popular-section__track {
     -webkit-box-flex: 1;
@@ -1072,7 +1067,7 @@ footer h2 {
   }
 }
 .similar-section {
-  padding-top: 100px;
+  padding: 100px 20px 0;
   margin-bottom: 100px;
 }
 .similar-section__title {
@@ -1121,9 +1116,6 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
-  .similar-section__container {
-    padding: 0 20px;
-  }
   .similar-section__items {
     grid-template-columns: repeat(3, 1fr);
   }
