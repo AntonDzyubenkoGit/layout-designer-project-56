@@ -682,7 +682,7 @@ footer h2 {
 @media (max-width: 414px) {
   .pricing-section__title {
     text-align: center;
-    margin: -6px 0 44px;
+    margin: -6px 0 46px;
     line-height: 36px;
   }
   .item-pricing {
