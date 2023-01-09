@@ -514,6 +514,7 @@ footer h2 {
 }
 @media (max-width: 580px) {
   .first-section {
+    height: 851px;
     padding: 200px 20px;
   }
   .first-section__input {
@@ -530,14 +531,13 @@ footer h2 {
 }
 @media (max-width: 414px) {
   .first-section {
-    height: 851px;
     padding: 248px 20px 200px;
   }
   .first-section__subtitle {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
   }
   .first-section__text {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
   }
 }
 .pricing-section {
