@@ -442,7 +442,7 @@ footer h2 {
   row-gap: 20px;
   max-width: 570px;
   min-height: 50px;
-  max-height: 131px;
+  height: 131px;
   margin: 0 auto;
 }
 .first-section__input {
