@@ -424,8 +424,11 @@ footer h2 {
 .first-section__container {
   text-align: center;
 }
+.first-section__title {
+  margin-top: -3px;
+}
 .first-section__subtitle {
-  margin-bottom: 31px;
+  margin-bottom: 34px;
 }
 .first-section__text {
   margin-bottom: 17px;
@@ -436,7 +439,7 @@ footer h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  row-gap: 24px;
+  row-gap: 20px;
   max-width: 570px;
   min-height: 50px;
   max-height: 131px;
