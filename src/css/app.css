@@ -544,7 +544,7 @@ footer h2 {
 }
 .pricing-section__title {
   text-align: center;
-  margin: 5px 0 60px;
+  margin: 5px 0 58px;
   line-height: 36px;
 }
 .pricing-section__items {
@@ -803,8 +803,11 @@ footer h2 {
   }
 }
 .application-section {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  max-width: 1200px;
   padding: 100px 20px 0;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
 }
 .application-section__title {
   text-align: center;

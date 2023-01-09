@@ -138,7 +138,7 @@
   // .pricing-section__title
   &__title {
     text-align: center;
-    margin: 5px 0 60px;
+    margin: 5px 0 58px;
     line-height: 36px;
   }
   // .pricing-section__items
@@ -380,11 +380,10 @@
 
 //-------------[APPLICATION-SECTION]----------------------------------------------
 .application-section {
+  box-sizing: content-box;
+  max-width: 1200px;
   padding: 100px 20px 0;
-  margin-bottom: 100px;
-  // .application-section__container
-  &__container {
-  }
+  margin: 0 auto 100px;
   // .application-section__title
   &__title {
     text-align: center;
@@ -439,9 +438,6 @@
 
 //-------------[APPLICATION-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
-  .application-section__container {
-    //padding: 0 20px;
-  }
   .application-section__body {
     flex-wrap: wrap;
     justify-content: center;
