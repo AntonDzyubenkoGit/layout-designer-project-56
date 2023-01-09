@@ -472,22 +472,27 @@ footer h2 {
 .first-section__input-item::-webkit-input-placeholder {
   color: #fff;
   font-size: 14px;
+  font-weight: bold;
 }
 .first-section__input-item::-moz-placeholder {
   color: #fff;
   font-size: 14px;
+  font-weight: bold;
 }
 .first-section__input-item:-ms-input-placeholder {
   color: #fff;
   font-size: 14px;
+  font-weight: bold;
 }
 .first-section__input-item::-ms-input-placeholder {
   color: #fff;
   font-size: 14px;
+  font-weight: bold;
 }
 .first-section__input-item::placeholder {
   color: #fff;
   font-size: 14px;
+  font-weight: bold;
 }
 .first-section__button {
   -webkit-box-flex: 1;
@@ -544,6 +549,9 @@ footer h2 {
   }
   .first-section__form {
     row-gap: 24px;
+  }
+  .first-section__button {
+    padding: 21px 30px;
   }
 }
 .pricing-section {

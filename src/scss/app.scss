@@ -79,6 +79,7 @@
     &::placeholder {
       color: #fff;
       font-size: 14px;
+      font-weight: bold;
     }
   }
   // .first-section__button
@@ -134,6 +135,9 @@
   }
   .first-section__form {
     row-gap: 24px;
+  }
+  .first-section__button {
+    padding: 21px 30px;
   }
 }
 
