@@ -558,7 +558,6 @@ footer h2 {
       -ms-flex-align: center;
           align-items: center;
   gap: 50px;
-  margin-bottom: 40px;
 }
 .pricing-section__item {
   -webkit-box-flex: 1;
@@ -579,7 +578,10 @@ footer h2 {
           align-items: center;
 }
 .pricing-section__text {
+  margin-top: 35px;
   text-align: center;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .item-pricing {
@@ -623,7 +625,7 @@ footer h2 {
   color: #08020d;
 }
 .item-pricing__text {
-  padding: 64px 0;
+  padding: 61px 0;
   text-align: center;
   font-size: 12.8px;
   line-height: 150%;
