@@ -369,7 +369,8 @@
 
 //-------------[APPLICATION-SECTION]----------------------------------------------
 .application-section {
-  padding: 100px 20px;
+  padding: 100px 20px 0;
+  margin-bottom: 100px;
   // .application-section__container
   &__container {
   }
@@ -435,6 +436,7 @@
     justify-content: center;
   }
   .body-application__item {
+    padding: 0;
     order: 2;
   }
   .body-application__img {

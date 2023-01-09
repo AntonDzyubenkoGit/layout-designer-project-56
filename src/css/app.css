@@ -779,7 +779,8 @@ footer h2 {
   }
 }
 .application-section {
-  padding: 100px 20px;
+  padding: 100px 20px 0;
+  margin-bottom: 100px;
 }
 .application-section__title {
   text-align: center;
@@ -844,6 +845,7 @@ footer h2 {
             justify-content: center;
   }
   .body-application__item {
+    padding: 0;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
