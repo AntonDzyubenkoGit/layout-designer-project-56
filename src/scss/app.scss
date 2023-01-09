@@ -13,6 +13,10 @@
   white-space: nowrap;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -478,8 +482,7 @@
     box-sizing: border-box;
   }
   .body-application__info {
-    flex: 1 1 100%;
-    width: 374px;
+    flex: 0 1 100%;
   }
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------

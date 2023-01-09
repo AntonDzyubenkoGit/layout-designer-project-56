@@ -395,6 +395,10 @@ footer h2 {
   white-space: nowrap;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -918,10 +922,9 @@ footer h2 {
             box-sizing: border-box;
   }
   .body-application__info {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
-    width: 374px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
   }
 }
 .first-artist-section {
