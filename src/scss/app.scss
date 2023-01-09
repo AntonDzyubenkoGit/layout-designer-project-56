@@ -444,6 +444,13 @@
   }
 }
 
+@media (max-width: 414px) {
+  .body-application__info {
+    & span {
+      text-align: justify;
+    }
+  }
+}
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------
 .first-artist-section {
   padding: 250px 0 223px;

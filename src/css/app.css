@@ -856,6 +856,11 @@ footer h2 {
             order: 1;
   }
 }
+@media (max-width: 414px) {
+  .body-application__info span {
+    text-align: justify;
+  }
+}
 .first-artist-section {
   padding: 250px 0 223px;
   background-image: url("../images/Morten Harket.png");
