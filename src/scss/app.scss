@@ -252,6 +252,19 @@
   }
   .item-pricing {
     height: 595px;
+    width: 374px;
+    &:nth-child(1) {
+      background: url("../images/subscribe_1.png") center center / contain
+        no-repeat;
+    }
+    &:nth-child(2) {
+      background: url("../images/subscribe_2.png") center center / cover
+        no-repeat;
+    }
+    &:nth-child(3) {
+      background: url("../images/subscribe_3.png") center center / contain
+        no-repeat;
+    }
   }
   .item-pricing__title {
     font-size: 16px;
