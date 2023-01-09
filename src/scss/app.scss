@@ -131,8 +131,10 @@
 .pricing-section {
   padding: 100px 20px 0;
   color: $color-white;
+
   // .pricing-section__container
   &__container {
+    
   }
   // .pricing-section__title
   &__title {
@@ -161,6 +163,7 @@
     text-align: center;
   }
 }
+
 .item-pricing {
   padding: 0 1.5rem;
   border-radius: 1rem;
@@ -214,7 +217,7 @@
 //-------------[PRICING-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
   .pricing-section__container {
-    //padding: 0 20px;
+    margin: 0 auto;
   }
   .pricing-section__items {
     flex-wrap: wrap;
@@ -242,11 +245,9 @@
 
 //-------------[NEWS-SECTION]----------------------------------------------
 .news-section {
-  padding: 100px 20px 0;
-  // .news-section__container
-  &__container {
-    margin: 0 -20px;
-  }
+  padding: 100px 0 0;
+  max-width: 1200px;
+  margin: 0 auto;
   // .news-section__title
   &__title {
     text-align: center;
@@ -266,6 +267,7 @@
     gap: 50px;
   }
 }
+
 .item-news {
   // .item-news__img
   &__img {
@@ -335,8 +337,8 @@
 
 //-------------[NEWS-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
-  .news-section__container {
-    margin: 0 auto;
+  .news-section {
+    padding: 100px 20px 0;
   }
   .news-section__item {
     justify-content: center;

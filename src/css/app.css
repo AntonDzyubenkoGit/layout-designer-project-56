@@ -626,6 +626,9 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
+  .pricing-section__container {
+    margin: 0 auto;
+  }
   .pricing-section__items {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -650,10 +653,9 @@ footer h2 {
   }
 }
 .news-section {
-  padding: 100px 20px 0;
-}
-.news-section__container {
-  margin: 0 -20px;
+  padding: 100px 0 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .news-section__title {
   text-align: center;
@@ -750,8 +752,8 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
-  .news-section__container {
-    margin: 0 auto;
+  .news-section {
+    padding: 100px 20px 0;
   }
   .news-section__item {
     -webkit-box-pack: center;
