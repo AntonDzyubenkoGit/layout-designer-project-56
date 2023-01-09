@@ -922,6 +922,7 @@ footer h2 {
             box-sizing: border-box;
   }
   .body-application__info {
+    font-size: 15.8px;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
