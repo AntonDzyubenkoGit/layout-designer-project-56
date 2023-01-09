@@ -653,7 +653,9 @@ footer h2 {
   }
 }
 .news-section {
-  padding: 100px 0 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 100px 20px 0;
   max-width: 1200px;
   margin: 0 auto;
 }
