@@ -913,6 +913,10 @@ footer h2 {
   }
 }
 @media (max-width: 414px) {
+  .application-section {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   .body-application__info {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;

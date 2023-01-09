@@ -474,6 +474,9 @@
 }
 
 @media (max-width: 414px) {
+  .application-section {
+    box-sizing: border-box;
+  }
   .body-application__info {
     flex: 1 1 100%;
     width: 374px;
