@@ -544,7 +544,7 @@ footer h2 {
 }
 .pricing-section__title {
   text-align: center;
-  margin: 5px 0 58px;
+  margin: 5px 0 62px;
   line-height: 36px;
 }
 .pricing-section__items {
@@ -588,6 +588,7 @@ footer h2 {
   padding: 0 1.5rem;
   border-radius: 1rem;
   height: 615px;
+  width: 366.66px;
 }
 .item-pricing:nth-child(1) {
   background: url("../images/subscribe_1.png") center center/cover no-repeat;
@@ -599,10 +600,16 @@ footer h2 {
   background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 .item-pricing__title {
-  padding-top: 24px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-top: 24px;
 }
 .item-pricing__value {
-  padding-top: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-top: 200px;
   font-size: 64px;
   line-height: 1em;
 }
@@ -611,6 +618,9 @@ footer h2 {
   vertical-align: text-top;
 }
 .item-pricing__button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   margin-top: 40px;
   border-radius: 5px;
   border: 1px solid #ffffff;
@@ -626,6 +636,9 @@ footer h2 {
   color: #08020d;
 }
 .item-pricing__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   padding: 61px 0;
   text-align: center;
   font-size: 12.8px;
@@ -646,6 +659,7 @@ footer h2 {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+    margin-top: 16px;
   }
   .item-pricing__text {
     padding: 64px 0 49px;
