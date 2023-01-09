@@ -383,6 +383,17 @@
 }
 
 @media (max-width: 414px) {
+  .news-section__items {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .item-news__img {
+    flex: 1 1 374px;
+    & img {
+      width: 374px;
+    }
+  }
   .item-news__title {
     margin-bottom: 16px;
     text-transform: none;

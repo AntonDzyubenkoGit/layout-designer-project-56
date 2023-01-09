@@ -820,6 +820,24 @@ footer h2 {
   }
 }
 @media (max-width: 414px) {
+  .news-section__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 64px;
+  }
+  .item-news__img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 374px;
+            flex: 1 1 374px;
+  }
+  .item-news__img img {
+    width: 374px;
+  }
   .item-news__title {
     margin-bottom: 16px;
     text-transform: none;
