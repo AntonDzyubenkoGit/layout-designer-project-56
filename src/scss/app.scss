@@ -476,7 +476,8 @@
 @media (max-width: 414px) {
   .body-application__info {
     & span {
-      //text-align: justify;
+      display: block;
+      text-align: left;
     }
   }
 }
