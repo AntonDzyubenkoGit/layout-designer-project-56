@@ -245,6 +245,9 @@
   padding: 100px 20px 0;
   // .news-section__container
   &__container {
+    @media (min-width: 1240px) {
+      margin: 0 -20px;
+    }
   }
   // .news-section__title
   &__title {

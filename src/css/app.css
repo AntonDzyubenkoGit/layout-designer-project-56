@@ -652,6 +652,11 @@ footer h2 {
 .news-section {
   padding: 100px 20px 0;
 }
+@media (min-width: 1240px) {
+  .news-section__container {
+    margin: 0 -20px;
+  }
+}
 .news-section__title {
   text-align: center;
   margin-bottom: 48px;
