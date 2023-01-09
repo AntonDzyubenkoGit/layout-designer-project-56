@@ -1237,6 +1237,9 @@ footer h2 {
   .similar-section__items {
     grid-template-columns: repeat(2, 138px);
     grid-template-rows: repeat(3, 1fr);
+    -webkit-column-gap: 49px;
+       -moz-column-gap: 49px;
+            column-gap: 49px;
   }
   .card-similar__img {
     width: 137px;
