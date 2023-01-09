@@ -693,9 +693,10 @@ footer h2 {
     font-weight: 700;
     line-height: 24px;
     margin-top: 14px;
+    font-weight: normal;
   }
   .item-pricing__button {
-    padding: 16px 114px 14px;
+    padding: 14px 114px;
   }
   .item-pricing__text {
     margin: 64px 0 61px;
