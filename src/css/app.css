@@ -544,7 +544,7 @@ footer h2 {
 }
 .pricing-section__title {
   text-align: center;
-  margin: 5px 0 50px;
+  margin: 4px 0 52px;
   line-height: 36px;
 }
 .pricing-section__items {
@@ -587,6 +587,7 @@ footer h2 {
 .item-pricing {
   padding: 0 1.5rem;
   border-radius: 1rem;
+  height: 615px;
 }
 .item-pricing:nth-child(1) {
   background: url("../images/subscribe_1.png") center center/cover no-repeat;
@@ -638,6 +639,9 @@ footer h2 {
   }
 }
 @media (max-width: 414px) {
+  .item-pricing {
+    height: 595px;
+  }
   .item-pricing__title {
     font-size: 16px;
     font-weight: 700;
