@@ -245,9 +245,7 @@
   padding: 100px 20px 0;
   // .news-section__container
   &__container {
-    @media (min-width: 1240px) {
-      margin: 0 -20px;
-    }
+    margin: 0 -20px;
   }
   // .news-section__title
   &__title {
@@ -271,9 +269,14 @@
 .item-news {
   // .item-news__img
   &__img {
+   flex: 1 1 575px;
+   & img {
+    width: 575px;
+   }
   }
   // .item-news__body
   &__body {
+    flex: 1 1 575px;
   }
   // .item-news__title
   &__title {
@@ -333,7 +336,7 @@
 //-------------[NEWS-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1200px) {
   .news-section__container {
-    //padding: 0 20px;
+    margin: 0 auto;
   }
   .news-section__item {
     justify-content: center;

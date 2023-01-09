@@ -652,10 +652,8 @@ footer h2 {
 .news-section {
   padding: 100px 20px 0;
 }
-@media (min-width: 1240px) {
-  .news-section__container {
-    margin: 0 -20px;
-  }
+.news-section__container {
+  margin: 0 -20px;
 }
 .news-section__title {
   text-align: center;
@@ -682,6 +680,19 @@ footer h2 {
   gap: 50px;
 }
 
+.item-news__img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 575px;
+          flex: 1 1 575px;
+}
+.item-news__img img {
+  width: 575px;
+}
+.item-news__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 575px;
+          flex: 1 1 575px;
+}
 .item-news__title {
   margin-bottom: 30px;
   color: #ffffff;
@@ -739,6 +750,9 @@ footer h2 {
 }
 
 @media (max-width: 1200px) {
+  .news-section__container {
+    margin: 0 auto;
+  }
   .news-section__item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
