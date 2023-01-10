@@ -254,16 +254,15 @@
     height: 595px;
     width: 374px;
     &:nth-child(1) {
-      background: url("../images/subscribe_1.png") center center / contain
+      background: url("../images/subscribe_1.png") 0 0 / contain
         no-repeat;
     }
     &:nth-child(2) {
-      background: url("../images/subscribe_2.png") center center / cover
+      background: url("../images/subscribe_2.png") 0 0 / cover
         no-repeat;
     }
     &:nth-child(3) {
-      background: url("../images/subscribe_3.png") center center / contain
-        no-repeat;
+      background: url("../images/subscribe_3.png") 0 0 / cover no-repeat;
     }
   }
   .item-pricing__title {
