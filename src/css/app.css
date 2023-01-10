@@ -1260,7 +1260,7 @@ footer h2 {
     grid-template-rows: repeat(3, 1fr);
     row-gap: 24px;
   }
-  .similar-section__card .mt {
+  .mt {
     margin-top: 5px;
   }
   .card-similar__img {
