@@ -977,7 +977,7 @@ footer h2 {
             box-sizing: border-box;
   }
   .body-application__info {
-    font-size: 15.5px;
+    font-size: 15.7px;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
@@ -1261,7 +1261,7 @@ footer h2 {
     row-gap: 24px;
   }
   .mt {
-    margin-top: 5px;
+    margin-top: -5px;
   }
   .card-similar__img {
     width: 137px;
