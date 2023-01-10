@@ -1261,7 +1261,7 @@ footer h2 {
     row-gap: 24px;
   }
   .mt {
-    margin-top: -5px;
+    margin-top: 5px;
   }
   .card-similar__img {
     width: 137px;
