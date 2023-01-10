@@ -233,9 +233,6 @@ h4 {
             flex: 1 1 100%;
     margin-top: 3px;
   }
-  .menu-header__link {
-    color: #ffffff;
-  }
 }
 .footer {
   background: -o-linear-gradient(0.25deg, #5328a1 32.83%, #95390c 81.56%);
@@ -467,6 +464,7 @@ img {
   -webkit-transition: background-color 0.5s ease 0s;
   -o-transition: background-color 0.5s ease 0s;
   transition: background-color 0.5s ease 0s;
+  border: none;
 }
 .first-section__button:hover {
   background-color: #2a945b;
@@ -632,7 +630,7 @@ img {
         flex-wrap: wrap;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 440px) {
   .item-pricing {
     height: 595px;
     width: 374px;
@@ -939,6 +937,7 @@ img {
   }
   .body-application__info:nth-child(2) {
     font-size: 15.5px;
+    margin-top: 18px;
   }
 }
 .first-artist-section {

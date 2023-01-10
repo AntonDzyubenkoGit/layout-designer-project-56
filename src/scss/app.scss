@@ -113,6 +113,7 @@ img {
     text-transform: uppercase;
     color: #fff;
     transition: background-color 0.5s ease 0s;
+    border: none;
     &:hover {
       background-color: #2a945b;
     }
@@ -261,7 +262,7 @@ img {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 440px) {
   .item-pricing {
     height: 595px;
     width: 374px;
@@ -548,6 +549,7 @@ img {
     font-size: 15.5px;
     &:nth-child(2) {
       font-size: 15.5px;
+      margin-top: 18px;
     }
   }
 }
