@@ -1262,6 +1262,9 @@ footer h2 {
     grid-template-rows: repeat(3, 1fr);
     row-gap: 24px;
   }
+  .mt {
+    margin-top: 2px;
+  }
   .card-similar__img {
     width: 137px;
     height: 137px;
