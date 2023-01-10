@@ -51,7 +51,7 @@ img {
   background-position: center;
   background-size: cover;
   color: $color-white;
-  height: 750px;
+  max-height: 750px;
   // .first-section__container
   &__container {
     text-align: center;
@@ -143,6 +143,7 @@ img {
 @media (max-width: 414px) {
   .first-section {
     padding: 248px 20px 200px;
+    max-height: 402px;
   }
   .first-section__subtitle {
     margin: 0 0 16px;
@@ -201,13 +202,13 @@ img {
   //height: 615px;
   //width: 366.66px;
   &:nth-child(1) {
-    background: url("../images/subscribe_1.png") 0 0 / cover no-repeat;
+    background: url("../images/subscribe_1.png") center center / cover no-repeat;
   }
   &:nth-child(2) {
-    background: url("../images/subscribe_2.png") 0 0 / cover no-repeat;
+    background: url("../images/subscribe_2.png") center center / cover no-repeat;
   }
   &:nth-child(3) {
-    background: url("../images/subscribe_3.png") 0 0 / cover no-repeat;
+    background: url("../images/subscribe_3.png") center center / cover no-repeat;
   }
   // .item-pricing__title
   &__title {
@@ -436,6 +437,7 @@ img {
       width: 374px;
     }
   }
+
   .item-news__title {
     margin-bottom: 16px;
     font-weight: 400;
@@ -539,6 +541,9 @@ img {
   }
   .body-application__info {
     flex: 0 1 100%;
+    &:nth-child(2) {
+      font-size: 15.5px;
+    }
   }
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------
@@ -557,7 +562,7 @@ img {
   }
   // .first-artist-section__text
   &__text {
-    margin-top: 16px;
+    margin: 16px 0 0;
   }
   // .first-artist-section__button
   &__button {
@@ -676,6 +681,7 @@ img {
   &__songer {
     font-size: 12.8px;
     line-height: 150%;
+    margin: 0;
   }
   // .track-popular__time
   &__time {

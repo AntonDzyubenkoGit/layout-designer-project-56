@@ -371,7 +371,7 @@ img {
   background-position: center;
   background-size: cover;
   color: #ffffff;
-  height: 750px;
+  max-height: 750px;
 }
 .first-section__container {
   text-align: center;
@@ -491,6 +491,7 @@ img {
 @media (max-width: 414px) {
   .first-section {
     padding: 248px 20px 200px;
+    max-height: 402px;
   }
   .first-section__subtitle {
     margin: 0 0 16px;
@@ -559,13 +560,13 @@ img {
   border-radius: 1rem;
 }
 .item-pricing:nth-child(1) {
-  background: url("../images/subscribe_1.png") 0 0/cover no-repeat;
+  background: url("../images/subscribe_1.png") center center/cover no-repeat;
 }
 .item-pricing:nth-child(2) {
-  background: url("../images/subscribe_2.png") 0 0/cover no-repeat;
+  background: url("../images/subscribe_2.png") center center/cover no-repeat;
 }
 .item-pricing:nth-child(3) {
-  background: url("../images/subscribe_3.png") 0 0/cover no-repeat;
+  background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 .item-pricing__title {
   -webkit-box-flex: 0;
@@ -927,6 +928,9 @@ img {
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
   }
+  .body-application__info:nth-child(2) {
+    font-size: 15.5px;
+  }
 }
 .first-artist-section {
   padding: 250px 0 223px;
@@ -939,7 +943,7 @@ img {
   padding: 0 20px;
 }
 .first-artist-section__text {
-  margin-top: 16px;
+  margin: 16px 0 0;
 }
 .first-artist-section__button {
   display: -webkit-inline-box;
@@ -1060,6 +1064,7 @@ img {
 .track-popular__songer {
   font-size: 12.8px;
   line-height: 150%;
+  margin: 0;
 }
 .track-popular__time {
   font-size: 12.8px;
