@@ -327,6 +327,13 @@ footer h2 {
   background: -o-linear-gradient(0.25deg, #5328a1 32.83%, #95390c 81.56%);
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+.footer__contain {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 .footer__row {
   padding: 3rem 0;
   display: grid;
@@ -373,11 +380,6 @@ footer h2 {
   text-decoration: underline;
 }
 
-@media (max-width: 1240px) {
-  .footer__container {
-    padding: 0 20px;
-  }
-}
 @media (max-width: 800px) {
   .footer__row {
     grid-template-columns: repeat(2, 1fr);
