@@ -17,7 +17,7 @@ footer h2 {
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   // .footer__contain
-  &__contain {
+  &__container {
   }
   // .footer__row
   &__row {
@@ -82,9 +82,8 @@ footer h2 {
 
 //-------------[FOOTER-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 1240px) {
-  .footer__contain {
+  .footer__container {
     padding: 0 20px;
-    max-width: 1240px;
   }
 }
 
