@@ -254,7 +254,7 @@
     height: 595px;
     width: 374px;
     &:nth-child(1) {
-      background: url("../images/subscribe_1.png") 0 0 / contain
+      background: url("../images/subscribe_1.png") 0 0 / cover
         no-repeat;
     }
     &:nth-child(2) {

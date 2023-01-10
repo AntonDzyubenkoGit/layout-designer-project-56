@@ -690,7 +690,7 @@ footer h2 {
     width: 374px;
   }
   .item-pricing:nth-child(1) {
-    background: url("../images/subscribe_1.png") 0 0/contain no-repeat;
+    background: url("../images/subscribe_1.png") 0 0/cover no-repeat;
   }
   .item-pricing:nth-child(2) {
     background: url("../images/subscribe_2.png") 0 0/cover no-repeat;
