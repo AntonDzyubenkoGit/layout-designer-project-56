@@ -235,7 +235,7 @@ img {
     margin-top: 40px;
     border-radius: 5px;
     border: 1px solid $color-white;
-    padding: 20px 114px;
+    padding: 25px 114px;
     color: $color-white;
     line-height: 150%;
     transition: all 0.5s ease 0s;
@@ -438,6 +438,10 @@ img {
     }
   }
 
+  .px-8 {
+    margin-top: -8px;
+  }
+
   .item-news__title {
     margin-bottom: 16px;
     font-weight: 400;
@@ -541,6 +545,7 @@ img {
   }
   .body-application__info {
     flex: 0 1 100%;
+    font-size: 15.5px;
     &:nth-child(2) {
       font-size: 15.5px;
     }

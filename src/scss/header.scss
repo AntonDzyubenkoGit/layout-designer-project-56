@@ -33,6 +33,7 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    margin: 0;
   }
   // .menu-header__item
   &__item {
@@ -101,17 +102,20 @@
   }
   .menu-header__navigation {
     flex: 0 0 100%;
-    //row-gap: 3px;
-    margin: 14px 0 14px;
+    margin: 0;
   }
   .menu-header__list {
     line-height: 13px;
     flex-direction: column;
     align-items: start;
     row-gap: 3px;
+    margin: 16px 0;
+  }
+  .search-menu__input {
+    width: 100%;
   }
   .menu-header__search {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
     margin-top: 3px;
   }
   .menu-header__link {
