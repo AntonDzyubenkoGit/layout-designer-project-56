@@ -615,9 +615,9 @@ img {
   color: #08020d;
 }
 .item-pricing__text {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 58px;
+          flex: 1 0 58px;
   margin: 61px 0 60px;
   text-align: center;
   font-size: 12.8px;
