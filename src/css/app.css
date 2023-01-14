@@ -317,8 +317,8 @@ h4 {
 @media (max-width: 414px) {
   .footer__row {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr) auto;
-    row-gap: 30px;
+    grid-template-rows: repeat(2, 1fr) auto auto;
+    row-gap: 31px;
   }
   .footer__list {
     margin-bottom: 0;
