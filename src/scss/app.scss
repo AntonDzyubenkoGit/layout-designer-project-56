@@ -175,7 +175,8 @@ img {
   // .pricing-section__title
   &__title {
     text-align: center;
-    margin: 0 0 48px;
+    margin-top: -3px;
+    margin-bottom: 50px;
   }
   // .pricing-section__items
   &__items {
@@ -267,6 +268,16 @@ img {
 }
 
 @media (max-width: 440px) {
+  .pricing-section__title {
+    text-align: center;
+    margin: 0 0 48px;
+  }
+  .pricing-section__text {
+    margin: 44px 0 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+  }
   .item-pricing {
     height: 595px;
     width: 374px;
@@ -562,7 +573,6 @@ img {
   .body-application__btn {
     margin-top: 17px;
   }
-
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------
 .first-artist-section {
