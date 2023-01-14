@@ -249,7 +249,7 @@ h4 {
   padding: 0 20px;
 }
 .footer__row {
-  padding: 3rem 0;
+  padding: 62px 0 72px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   -webkit-column-gap: 40px;
@@ -261,7 +261,6 @@ h4 {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0;
   color: #ffffff;
 }
 @media (max-width: 414px) {
