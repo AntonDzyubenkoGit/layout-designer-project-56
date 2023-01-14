@@ -548,6 +548,9 @@ img {
   .application-section {
     box-sizing: border-box;
   }
+  .body-application__item {
+    height: 252px;
+  }
   .body-application__info {
     flex: 0 1 100%;
     font-size: 15.5px;
@@ -559,6 +562,7 @@ img {
   .body-application__btn {
     margin-top: 15px;
   }
+
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------
 .first-artist-section {
