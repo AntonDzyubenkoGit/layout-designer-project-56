@@ -286,11 +286,11 @@ h4 {
   gap: 24px;
 }
 .footer .footer__basement {
-  padding: 2rem 0;
+  padding: 26px 0 32px;
 }
 .footer hr {
   border: 1px solid #cacaca;
-  margin: 13px 0 0;
+  margin: 10px 0 0;
 }
 
 .basement-footer__list {
@@ -325,8 +325,11 @@ h4 {
   .footer__list {
     margin-bottom: 0;
   }
-  hr {
+  .footer hr {
     margin: 0;
+  }
+  .footer__basement {
+    padding: 2rem;
   }
   .basement-footer__list {
     -webkit-box-orient: vertical;
