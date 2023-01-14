@@ -249,7 +249,7 @@ h4 {
   padding: 0 20px;
 }
 .footer__row {
-  padding: 61px 0 60px;
+  padding: 61px 0 65px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   -webkit-column-gap: 40px;
@@ -380,7 +380,7 @@ img {
 }
 
 .first-section {
-  padding: 200px 0;
+  padding: 198px 0 200px;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -391,7 +391,7 @@ img {
   text-align: center;
 }
 .first-section__subtitle {
-  margin-bottom: 31px;
+  margin-bottom: 29px;
 }
 .first-section__text {
   margin-bottom: 17px;

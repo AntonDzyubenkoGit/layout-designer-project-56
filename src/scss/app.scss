@@ -46,7 +46,7 @@ img {
 
 //-------------[FIRST-SECTION]----------------------------------------------
 .first-section {
-  padding: 200px 0;
+  padding: 198px 0 200px;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -61,7 +61,7 @@ img {
   }
   // .first-section__subtitle
   &__subtitle {
-    margin-bottom: 31px;
+    margin-bottom: 29px;
   }
   // .first-section__text
   &__text {

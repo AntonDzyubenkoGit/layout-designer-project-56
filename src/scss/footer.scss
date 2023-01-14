@@ -61,6 +61,7 @@ footer h2 {
   & hr {
     border: 1px solid $color-dark-gray;
     margin: 0;
+    padding-top: 10px;
   }
 }
 
@@ -106,6 +107,9 @@ footer h2 {
   }
   .footer__list {
     margin-bottom: 0;
+  }
+  hr {
+    padding: 0;
   }
   .basement-footer__list {
     flex-direction: column;
