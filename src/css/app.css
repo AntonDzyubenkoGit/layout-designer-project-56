@@ -290,8 +290,7 @@ h4 {
 }
 .footer hr {
   border: 1px solid #cacaca;
-  margin: 0;
-  padding-top: 13px;
+  margin: 13px 0 0;
 }
 
 .basement-footer__list {
@@ -327,7 +326,7 @@ h4 {
     margin-bottom: 0;
   }
   hr {
-    padding: 0;
+    margin: 0;
   }
   .basement-footer__list {
     -webkit-box-orient: vertical;
