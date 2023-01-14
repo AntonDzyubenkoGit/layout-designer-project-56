@@ -175,7 +175,7 @@ img {
   // .pricing-section__title
   &__title {
     text-align: center;
-    margin-top: -3px;
+    padding-top: -3px;
     margin-bottom: 50px;
   }
   // .pricing-section__items
@@ -268,6 +268,13 @@ img {
 }
 
 @media (max-width: 440px) {
+  .pricing-section__item {
+    flex: 1 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .pricing-section__title {
     text-align: center;
     margin: 0 0 48px;
