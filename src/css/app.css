@@ -291,7 +291,7 @@ h4 {
 .footer hr {
   border: 1px solid #cacaca;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 13px;
 }
 
 .basement-footer__list {
@@ -384,7 +384,7 @@ img {
 }
 
 .first-section {
-  padding: 198px 0 200px;
+  padding: 198px 0 205px;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
