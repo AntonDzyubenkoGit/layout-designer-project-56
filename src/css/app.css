@@ -961,6 +961,9 @@ img {
     font-size: 15.5px;
     margin-top: 18px;
   }
+  .body-application__btn {
+    margin-top: 20px;
+  }
 }
 .first-artist-section {
   padding: 250px 0 223px;
