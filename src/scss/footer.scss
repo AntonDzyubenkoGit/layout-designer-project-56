@@ -11,7 +11,7 @@ footer h2 {
   }
   // .footer__row
   &__row {
-    padding: 62px 0 72px;
+    padding: 61px 0 60px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 40px;
@@ -50,7 +50,7 @@ footer h2 {
   }
   // .footer__img
   &__img {
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     gap: 24px;
   }
@@ -99,6 +99,7 @@ footer h2 {
 
 @media (max-width: 414px) {
   .footer__row {
+    padding: 62px 0 72px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr) auto auto;
     row-gap: 31px;
