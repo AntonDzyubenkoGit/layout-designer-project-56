@@ -523,6 +523,9 @@ img {
   .first-section__form {
     row-gap: 24px;
   }
+  .first-section__input-item {
+    padding: 15px 0 15px 20px;
+  }
   .first-section__button {
     padding: 20px 30px;
   }
