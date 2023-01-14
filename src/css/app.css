@@ -286,11 +286,11 @@ h4 {
   gap: 24px;
 }
 .footer .footer__basement {
-  padding: 26px 0 32px;
+  padding: 24px 0 32px;
 }
 .footer hr {
   border: 1px solid #cacaca;
-  margin: 10px 0 0;
+  margin: 8px 0 0;
 }
 
 .basement-footer__list {
@@ -570,7 +570,7 @@ img {
           align-items: center;
 }
 .pricing-section__text {
-  margin: 40px 0 0;
+  margin: 44px 0 0;
   text-align: center;
   font-size: 16px;
   line-height: 150%;
