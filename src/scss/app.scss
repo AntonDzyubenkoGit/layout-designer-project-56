@@ -547,6 +547,7 @@ img {
 @media (max-width: 414px) {
   .application-section {
     box-sizing: border-box;
+    padding: 100px 20px 105px;
   }
   .body-application__info {
     flex: 0 1 100%;
@@ -557,7 +558,7 @@ img {
     }
   }
   .body-application__btn {
-    margin-top: 27px;
+    margin-top: 18px;
   }
 }
 //-------------[FIRST-ARTIST-SECTION]----------------------------------------------

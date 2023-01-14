@@ -950,6 +950,7 @@ img {
   .application-section {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    padding: 100px 20px 105px;
   }
   .body-application__info {
     -webkit-box-flex: 0;
@@ -962,7 +963,7 @@ img {
     margin-top: 18px;
   }
   .body-application__btn {
-    margin-top: 27px;
+    margin-top: 18px;
   }
 }
 .first-artist-section {
