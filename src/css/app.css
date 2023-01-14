@@ -291,6 +291,7 @@ h4 {
 .footer hr {
   border: 1px solid #cacaca;
   margin: 0;
+  padding-top: 10px;
 }
 
 .basement-footer__list {
@@ -324,6 +325,9 @@ h4 {
   }
   .footer__list {
     margin-bottom: 0;
+  }
+  hr {
+    padding: 0;
   }
   .basement-footer__list {
     -webkit-box-orient: vertical;
@@ -630,7 +634,7 @@ img {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 58px;
           flex: 1 0 58px;
-  margin: 61px 0 60px;
+  margin: 70px 0 60px;
   text-align: center;
   font-size: 12.8px;
   line-height: 150%;
