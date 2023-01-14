@@ -249,7 +249,7 @@ h4 {
   padding: 0 20px;
 }
 .footer__row {
-  padding: 62px 0 72px;
+  padding: 61px 0 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   -webkit-column-gap: 40px;
@@ -270,6 +270,7 @@ h4 {
 }
 .footer__list {
   margin-top: 15px;
+  margin-bottom: 0;
 }
 .footer__link {
   color: #cacaca;
@@ -278,7 +279,7 @@ h4 {
   text-decoration: underline;
 }
 .footer__img {
-  margin-top: 15px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,6 +317,7 @@ h4 {
 }
 @media (max-width: 414px) {
   .footer__row {
+    padding: 62px 0 72px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr) auto auto;
     row-gap: 31px;
