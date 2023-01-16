@@ -714,6 +714,7 @@ img {
     margin-top: 16px;
   }
   .item-pricing__button {
+    height: 0;
     padding: 14px 114px;
   }
   .item-pricing__text {
