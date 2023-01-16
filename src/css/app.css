@@ -640,6 +640,7 @@ img {
   line-height: 150%;
   height: 57px;
   margin: 0;
+  margin-top: -10px;
 }
 
 .btn {
