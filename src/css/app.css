@@ -611,8 +611,6 @@ img {
 .item-pricing__button {
   margin-top: 42px;
   display: block;
-  border-radius: 5px;
-  border: 1px solid #ffffff;
   padding: 20px 0;
   color: #ffffff;
   line-height: 150%;
@@ -633,6 +631,11 @@ img {
   font-size: 12.8px;
   line-height: 150%;
   height: 57px;
+}
+
+.btn {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
 }
 
 @media (max-width: 1200px) {

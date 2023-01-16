@@ -249,8 +249,8 @@ img {
     //flex: 1 0 auto;
     margin-top: 42px;
     display: block;
-    border-radius: 5px;
-    border: 1px solid $color-white;
+    //border-radius: 5px;
+    //border: 1px solid $color-white;
     padding: 20px 0;
 
 
@@ -271,6 +271,11 @@ img {
     line-height: 150%;
     height: 57px;
   }
+}
+
+.btn {
+  border-radius: 5px;
+  border: 1px solid $color-white;
 }
 
 //-------------[PRICING-SECTION-MEDIA]----------------------------------------------
