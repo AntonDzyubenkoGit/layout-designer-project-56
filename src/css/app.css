@@ -610,8 +610,16 @@ img {
 }
 .item-pricing__button {
   margin-top: 42px;
-  display: block;
-  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #ffffff;
   line-height: 150%;
   -webkit-transition: all 0.5s ease 0s;

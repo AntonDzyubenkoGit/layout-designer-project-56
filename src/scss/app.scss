@@ -248,10 +248,12 @@ img {
   &__button {
     //flex: 1 0 auto;
     margin-top: 42px;
-    display: block;
+    display: flex;
     //border-radius: 5px;
     //border: 1px solid $color-white;
-    padding: 20px 0;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
 
 
     color: $color-white;
