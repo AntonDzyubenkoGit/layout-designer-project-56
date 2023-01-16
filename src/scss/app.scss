@@ -531,7 +531,7 @@ img {
   }
 }
 
-//-------------[APPLICATION-SECTION]----------------------------------------------
+// -------------[APPLICATION-SECTION]----------------------------------------------
 .application-section {
   box-sizing: content-box;
   max-width: 1200px;
@@ -640,6 +640,7 @@ img {
     margin-top: 17px;
   }
 }
+
 // -------------[FIRST-ARTIST-SECTION]----------------------------------------------
 .first-artist-section {
   padding: 250px 0 223px;
@@ -724,7 +725,7 @@ img {
   }
 }
 
-//-------------[POPULAR-SECTION]----------------------------------------------
+// -------------[POPULAR-SECTION]----------------------------------------------
 .popular-section {
   padding: 100px 20px 0;
   margin: 0 auto;
@@ -760,6 +761,7 @@ img {
     width: 55px;
     height: 55px;
     margin-right: 15px;
+    
     & img {
       width: 100%;
     }
@@ -911,7 +913,7 @@ img {
   &__img {
     max-width: 250px;
     max-height: 250px;
-    
+
     & img {
       width: 100%;
     }
