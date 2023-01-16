@@ -187,7 +187,9 @@ img {
   }
   // .pricing-section__item
   &__item {
-    flex: 1 1 auto;
+    //flex: 1 1 auto;
+    flex: 0 1 366.66px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,7 +216,7 @@ img {
 }
 
 .item-pricing {
-  padding: 0 1.5rem;
+  //padding: 0 1.5rem;
   border-radius: 1rem;
 
   /*
