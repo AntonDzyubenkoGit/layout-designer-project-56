@@ -188,11 +188,15 @@ img {
   // .pricing-section__item
   &__item {
     flex: 1 1 366.66px;
+    
+    text-align: center;
 
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    */
+
   }
   // .pricing-section__text
   &__text {
@@ -222,14 +226,14 @@ img {
   // .item-pricing__title
   &__title {
     flex: 0 1 auto;
-    margin-top: 21px;
+    margin-top: 24px;
   }
   // .item-pricing__value
   &__value {
-    flex: 0 1 auto;
+    //flex: 0 1 auto;
     font-size: 64px;
     line-height: 1em;
-    margin: 199px 0 0;
+    margin: 199px 0 40px;
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -240,11 +244,12 @@ img {
   }
   // .item-pricing__button
   &__button {
-    flex: 1 0 auto;
-    margin-top: 40px;
+    //flex: 1 0 auto;
+    //margin-top: 40px;
+    display: inline-block;
     border-radius: 5px;
     border: 1px solid $color-white;
-    padding: 21px 113.5px;
+    padding: 20px 113.5px;
 
     color: $color-white;
     line-height: 150%;
