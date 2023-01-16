@@ -280,15 +280,16 @@ img {
 }
 
 @media (max-width: 440px) {
-  /*
+  
   .pricing-section__item {
-    flex: 1 1 33.333%;
+    flex: 1 1 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
-  */
+  
   .pricing-section__title {
     text-align: center;
     margin: 0 0 48px;
@@ -300,6 +301,7 @@ img {
     line-height: 150%;
   }
   .item-pricing {
+    padding: 0;
     height: 595px;
     width: 374px;
     &:nth-child(1) {
