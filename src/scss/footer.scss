@@ -6,6 +6,7 @@
   .footer__container {
     padding: 0 20px;
   }
+
   // .footer__row
   &__row {
     padding: 61px 0 65px;
@@ -13,9 +14,7 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 40px;
   }
-  // .footer__column
-  &__column {
-  }
+
   // .footer__title
   &__title {
     font-size: 18px;
@@ -29,14 +28,17 @@
       }
     }
   }
+
   // .footer__list
   &__list {
     margin-top: 15px;
     margin-bottom: 0;
   }
+
   // .footer__item
   &__item {
   }
+
   // .footer__link
   &__link {
     color: $color-dark-gray;
@@ -44,12 +46,14 @@
       text-decoration: underline;
     }
   }
+
   // .footer__img
   &__img {
     margin-top: 20px;
     display: flex;
     gap: 24px;
   }
+
   // .footer__basement
   .footer__basement {
     padding: 23px 0 34px;
@@ -61,15 +65,14 @@
 }
 
 .basement-footer {
+
   // .basement-footer__list
   &__list {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
   }
-  // .basement-footer__item
-  &__item {
-  }
+
   // .basement-footer__link
   &__link {
     color: $color-dark-gray;
@@ -95,15 +98,19 @@
     grid-template-rows: repeat(2, 1fr) auto auto;
     row-gap: 31px;
   }
+
   .footer__list {
     margin-bottom: 0;
   }
+
   .footer hr {
     margin: 0;
   }
+
   .footer__basement {
     padding: 2rem;
   }
+  
   .basement-footer__list {
     flex-direction: column;
   }

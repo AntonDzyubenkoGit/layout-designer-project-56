@@ -5,10 +5,8 @@
 }
 
 *,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -36,9 +34,6 @@ body {
   font-size: 100%;
   line-height: 1;
   font-size: 16px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 input,
@@ -62,10 +57,6 @@ button::-moz-focus-inner {
 
 a,
 a:visited {
-  text-decoration: none;
-}
-
-a :hover {
   text-decoration: none;
 }
 

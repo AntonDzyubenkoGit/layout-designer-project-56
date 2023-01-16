@@ -58,10 +58,6 @@ img {
     text-align: center;
   }
 
-  // .first-section__title
-  &__title {
-  }
-
   // .first-section__subtitle
   &__subtitle {
     margin-bottom: 29px;
@@ -94,7 +90,6 @@ img {
   // .first-section__input-item
   &__input-item {
     flex: 1 1 50%;
-    //max-width: 270px;
     background-color: transparent;
     padding: 16px 0 16px 20px;
     border: 2px solid #cacaca;
@@ -102,6 +97,7 @@ img {
     font-size: 14px;
     line-height: 16px;
     color: #fff;
+
     &::placeholder {
       color: #fff;
       font-size: 14px;
@@ -122,6 +118,7 @@ img {
     color: #fff;
     transition: background-color 0.5s ease 0s;
     border: none;
+
     &:hover {
       background-color: #2a945b;
     }
@@ -183,7 +180,6 @@ img {
   // .pricing-section__title
   &__title {
     text-align: center;
-    //padding-top: -3px;
     margin-bottom: 50px;
   }
 
@@ -215,6 +211,7 @@ img {
 .item-pricing {
   padding: 0 1.5rem;
   border-radius: 1rem;
+
   &:nth-child(1) {
     background: url("../images/subscribe_1.png") center center / cover no-repeat;
   }
