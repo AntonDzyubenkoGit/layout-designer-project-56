@@ -625,16 +625,6 @@ img {
   border-radius: 5px;
   border: 1px solid #ffffff;
   padding: 21px 114px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 65px;
   color: #ffffff;
   line-height: 150%;
   -webkit-transition: all 0.5s ease 0s;
@@ -714,7 +704,6 @@ img {
     margin-top: 16px;
   }
   .item-pricing__button {
-    height: 0;
     padding: 14px 114px;
   }
   .item-pricing__text {
