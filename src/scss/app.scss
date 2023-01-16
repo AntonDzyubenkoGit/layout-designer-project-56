@@ -194,7 +194,11 @@ img {
     align-items: center;
 
     @media (min-width: 1200px) {
-      flex: 0 1 366.66px;
+      flex: 1 1 366.66px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
   // .pricing-section__text
@@ -211,7 +215,8 @@ img {
   border-radius: 1rem;
 
   @media (min-width: 1200px) {
-     padding: 0;
+    padding: 0;
+    border-radius: 1rem;
   }
 
   //height: 615px;
@@ -231,9 +236,9 @@ img {
     margin-top: 24px;
 
     @media (min-width: 1200px) {
+      flex: 0 1 auto;
       margin-top: 21px;
     }
-
   }
   // .item-pricing__value
   &__value {
@@ -261,6 +266,10 @@ img {
       width: 316px;
       text-align: center;
       padding: 21px 0;
+      flex: 0 1 auto;
+      margin-top: 40px;
+      border-radius: 5px;
+      border: 1px solid $color-white;
     }
 
     color: $color-white;
@@ -280,6 +289,12 @@ img {
     line-height: 150%;
 
     @media (min-width: 1200px) {
+      flex: 1 0 58px;
+      margin: 70px 0 60px;
+      text-align: center;
+      font-size: 12.8px;
+      line-height: 150%;
+
       padding: 0 24px;
     }
   }
