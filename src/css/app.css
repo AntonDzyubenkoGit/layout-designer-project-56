@@ -706,7 +706,7 @@ img {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1150px) {
   .pricing-section__items {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
