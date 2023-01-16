@@ -288,13 +288,13 @@ img {
 
 @media (max-width: 440px) {
   
-  .pricing-section__item {
+  /*.pricing-section__item {
     flex: 1 1 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  }*/
   
   .pricing-section__title {
     text-align: center;
@@ -307,7 +307,7 @@ img {
     line-height: 150%;
   }
   .item-pricing {
-    padding: 0;
+    //padding: 0;
     height: 595px;
     width: 374px;
     &:nth-child(1) {
@@ -331,10 +331,9 @@ img {
   }
   .item-pricing__button {
     padding: 14px 115px;
-    margin-bottom: 0;
   }
   .item-pricing__text {
-    margin: 64px 0;
+    //margin: 64px 0;
     padding: 0 28px;
   }
 }
