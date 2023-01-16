@@ -143,7 +143,7 @@ h4 {
   text-decoration: underline;
 }
 .menu-header__link-white {
-  color: #ffffff;
+  color: #fff;
 }
 .menu-header__search {
   -webkit-box-flex: 0;
@@ -262,7 +262,7 @@ h4 {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 @media (max-width: 414px) {
   .footer__title .footer__title {
@@ -387,7 +387,7 @@ img {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
-  color: #ffffff;
+  color: #fff;
   max-height: 750px;
 }
 .first-section__container {
@@ -534,7 +534,7 @@ img {
   max-width: 1200px;
   padding: 97px 20px 0;
   margin: 0 auto;
-  color: #ffffff;
+  color: #fff;
 }
 .pricing-section__title {
   text-align: center;
@@ -613,7 +613,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #ffffff;
+  color: #fff;
   line-height: 150%;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -637,7 +637,7 @@ img {
 
 .btn {
   border-radius: 5px;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 
 @media (max-width: 1200px) {
@@ -700,7 +700,7 @@ img {
 .news-section__title {
   text-align: center;
   margin-bottom: 48px;
-  color: #ffffff;
+  color: #fff;
 }
 .news-section__items {
   display: -webkit-box;
@@ -741,7 +741,7 @@ img {
   font-weight: 400;
   line-height: 45px;
   margin-bottom: 30px;
-  color: #ffffff;
+  color: #fff;
 }
 .item-news__text {
   margin-bottom: 24px;
@@ -877,7 +877,7 @@ img {
 .application-section__title {
   text-align: center;
   margin-bottom: 48px;
-  color: #ffffff;
+  color: #fff;
 }
 .application-section__body {
   display: -webkit-box;
@@ -911,7 +911,7 @@ img {
   padding: 16px 40px;
   border-radius: 32px;
   background-color: #95390c;
-  color: #ffffff;
+  color: #fff;
   font-size: 12.8px;
   line-height: 150%;
   -webkit-transition: all 0.5s ease 0s;
@@ -973,7 +973,7 @@ img {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-  color: #ffffff;
+  color: #fff;
 }
 .first-artist-section__container {
   padding: 0 20px;
@@ -993,7 +993,7 @@ img {
   margin-top: 48px;
   border-radius: 5px;
   background-color: transparent;
-  color: #ffffff;
+  color: #fff;
   -webkit-transition: background-color 0.5s ease 0s;
   -o-transition: background-color 0.5s ease 0s;
   transition: background-color 0.5s ease 0s;
@@ -1045,7 +1045,7 @@ img {
   max-width: 1200px;
 }
 .popular-section__title {
-  color: #ffffff;
+  color: #fff;
 }
 .popular-section__items {
   margin-top: 48px;
@@ -1095,7 +1095,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  color: #ffffff;
+  color: #fff;
 }
 .track-popular__songer {
   font-size: 12.8px;
@@ -1120,7 +1120,7 @@ img {
   padding: 100px 20px 0;
 }
 .discography-section__title {
-  color: #ffffff;
+  color: #fff;
 }
 .discography-section__items {
   margin-top: 48px;
@@ -1155,7 +1155,7 @@ img {
   line-height: 27px;
   font-weight: 700;
   text-transform: none;
-  color: #ffffff;
+  color: #fff;
 }
 .card-discography__year {
   font-size: 16px;
@@ -1189,7 +1189,7 @@ img {
   margin: 0 auto 100px;
 }
 .similar-section__title {
-  color: #ffffff;
+  color: #fff;
 }
 .similar-section__items {
   margin-top: 48px;
@@ -1227,7 +1227,7 @@ img {
   line-height: 27px;
   font-weight: 700;
   text-transform: none;
-  color: #ffffff;
+  color: #fff;
 }
 .card-similar__fans {
   font-size: 16px;

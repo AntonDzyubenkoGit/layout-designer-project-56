@@ -35,10 +35,6 @@
     margin-bottom: 0;
   }
 
-  // .footer__item
-  &__item {
-  }
-
   // .footer__link
   &__link {
     color: $color-dark-gray;
@@ -65,7 +61,6 @@
 }
 
 .basement-footer {
-
   // .basement-footer__list
   &__list {
     display: flex;
@@ -110,7 +105,7 @@
   .footer__basement {
     padding: 2rem;
   }
-  
+
   .basement-footer__list {
     flex-direction: column;
   }

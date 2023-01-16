@@ -133,10 +133,12 @@ img {
     height: 851px;
     padding: 200px 20px;
   }
+
   .first-section__input {
     flex-wrap: wrap;
     row-gap: 24px;
   }
+
   .first-section__input-item {
     flex: 1 1 100%;
   }
@@ -147,19 +149,24 @@ img {
     padding: 248px 20px 202px;
     max-height: 402px;
   }
+
   .first-section__subtitle {
     margin: 0 0 16px;
   }
+
   .first-section__text {
     margin-bottom: 16px;
   }
+
   .first-section__form {
     row-gap: 24px;
     height: 205px;
   }
+
   .first-section__input-item {
     padding: 15px 0 15px 20px;
   }
+
   .first-section__button {
     padding: 21px 30px;
   }
@@ -196,7 +203,6 @@ img {
 
   // .pricing-section__text
   &__text {
-    //margin: 44px 0 0;
     margin: 40px 0 0;
     text-align: center;
     font-size: 16px;
@@ -211,9 +217,11 @@ img {
   &:nth-child(1) {
     background: url("../images/subscribe_1.png") center center / cover no-repeat;
   }
+
   &:nth-child(2) {
     background: url("../images/subscribe_2.png") center center / cover no-repeat;
   }
+
   &:nth-child(3) {
     background: url("../images/subscribe_3.png") center center / cover no-repeat;
   }
@@ -233,6 +241,7 @@ img {
     display: flex;
     gap: 16px;
     justify-content: center;
+
     & span {
       font-size: 32px;
       line-height: 150%;
@@ -264,7 +273,6 @@ img {
     line-height: 150%;
     height: 57px;
     margin: 0;
-
     margin-top: -10px;
   }
 }
@@ -297,12 +305,15 @@ img {
   .item-pricing {
     height: 595px;
     width: 374px;
+
     &:nth-child(1) {
       background: url("../images/subscribe_1.png") 0 0 / cover no-repeat;
     }
+
     &:nth-child(2) {
       background: url("../images/subscribe_2.png") 0 0 / cover no-repeat;
     }
+
     &:nth-child(3) {
       background: url("../images/subscribe_3.png") 0 0 / cover no-repeat;
     }
@@ -322,6 +333,7 @@ img {
     margin-top: -10px;
   }
 }
+
 @media (max-width: 400px) {
   .item-pricing {
     padding: 0;
@@ -497,10 +509,12 @@ img {
     font-size: 16px;
     line-height: 24px;
   }
+
   .item-news__label {
     font-size: 12.8px;
     line-height: 150%;
   }
+
   .item-news__date {
     font-size: 12.8px;
     line-height: 150%;
@@ -627,10 +641,6 @@ img {
   // .first-artist-section__container
   &__container {
     padding: 0 20px;
-  }
-
-  // .first-artist-section__title
-  &__title {
   }
 
   // .first-artist-section__text
@@ -798,6 +808,7 @@ img {
     row-gap: 25px;
   }
 }
+
 .card-discography {
   display: flex;
   flex-direction: column;
@@ -926,10 +937,12 @@ img {
     grid-template-columns: repeat(2, 138px);
     grid-template-rows: repeat(3, 230px);
   }
+
   .card-similar__img {
     width: 137px;
     height: 137px;
   }
+  
   .card-similar__fans {
     text-align: center;
   }
