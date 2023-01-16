@@ -574,6 +574,7 @@ img {
 }
 
 .item-pricing {
+  padding: 0 1.5rem;
   border-radius: 1rem;
 }
 .item-pricing:nth-child(1) {
@@ -586,15 +587,14 @@ img {
   background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 .item-pricing__title {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
   margin-top: 24px;
+  font-size: 24px;
+  line-height: 36px;
 }
 .item-pricing__value {
   font-size: 64px;
   line-height: 1em;
-  margin: 199px 0 40px;
+  margin: 199px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,10 +608,11 @@ img {
   line-height: 150%;
 }
 .item-pricing__button {
-  display: inline-block;
+  margin-top: 40px;
+  display: block;
   border-radius: 5px;
   border: 1px solid #ffffff;
-  padding: 20px 113.5px;
+  padding: 20px 0;
   color: #ffffff;
   line-height: 150%;
   -webkit-transition: all 0.5s ease 0s;
@@ -630,7 +631,6 @@ img {
   text-align: center;
   font-size: 12.8px;
   line-height: 150%;
-  padding: 0 20px;
 }
 
 @media (max-width: 1200px) {
@@ -691,9 +691,7 @@ img {
     margin-top: 16px;
   }
   .item-pricing__button {
-    margin-top: 40px;
-    display: inline-block;
-    padding: 14px 114px;
+    padding: 14px;
   }
   .item-pricing__text {
     margin: 64px 0;
