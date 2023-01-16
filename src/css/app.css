@@ -588,7 +588,7 @@ img {
   background: url("../images/subscribe_3.png") center center/cover no-repeat;
 }
 .item-pricing__title {
-  margin-top: 24px;
+  margin-top: 23px;
   font-size: 24px;
   line-height: 36px;
 }
@@ -613,7 +613,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0;
+  padding: 25px 0;
   margin-bottom: 64px;
   -webkit-box-align: center;
       -ms-flex-align: center;
