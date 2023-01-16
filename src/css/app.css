@@ -382,10 +382,6 @@ img {
           flex: 1 1 auto;
 }
 
-.none {
-  display: none;
-}
-
 .first-section {
   padding: 198px 0 205px;
   background-image: url("../images/banner.png");
