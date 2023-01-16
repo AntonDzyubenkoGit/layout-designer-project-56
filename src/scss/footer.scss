@@ -1,7 +1,4 @@
-//-------------[FOOTER-SECTION]----------------------------------------------
-footer h2 {
-}
-
+// -------------[FOOTER-SECTION]----------------------------------------------
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
@@ -25,7 +22,6 @@ footer h2 {
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
-    //margin: 0;
     color: $color-white;
     @media (max-width: 414px) {
       .footer__title {
@@ -83,12 +79,7 @@ footer h2 {
   }
 }
 
-//-------------[FOOTER-SECTION-MEDIA]----------------------------------------------
-@media (max-width: 1240px) {
-  .footer__container {
-  }
-}
-
+// -------------[FOOTER-SECTION-MEDIA]----------------------------------------------
 @media (max-width: 800px) {
   .footer__row {
     grid-template-columns: repeat(2, 1fr);
