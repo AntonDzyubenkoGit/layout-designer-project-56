@@ -632,6 +632,7 @@ img {
   text-align: center;
   font-size: 12.8px;
   line-height: 150%;
+  height: 57px;
 }
 
 @media (max-width: 1200px) {
