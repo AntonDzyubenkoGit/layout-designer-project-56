@@ -639,13 +639,13 @@ img {
   line-height: 150%;
 }
 .item-pricing__button {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   margin-top: 40px;
   border-radius: 5px;
   border: 1px solid #ffffff;
-  padding: 20px 114px 25px;
+  padding: 20px 114px;
   /*
   @media (min-width: 1199px) {
     width: 316px;
@@ -669,8 +669,8 @@ img {
 }
 .item-pricing__text {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 58px;
-          flex: 1 0 58px;
+      -ms-flex: 1 1 58px;
+          flex: 1 1 58px;
   margin: 70px 0 60px;
   text-align: center;
   font-size: 12.8px;
