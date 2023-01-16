@@ -663,7 +663,7 @@ img {
   }*/
   .pricing-section__title {
     text-align: center;
-    margin: 0 0 50px;
+    margin: 3px 0 47px;
   }
   .pricing-section__text {
     margin: 44px 0 0;
@@ -685,16 +685,15 @@ img {
     background: url("../images/subscribe_3.png") 0 0/cover no-repeat;
   }
   .item-pricing__value {
-    margin: 203px 0 0;
+    margin: 199px 0 0;
   }
   .item-pricing__title {
     font-size: 16px;
-    font-weight: 700;
     line-height: 24px;
     margin-top: 16px;
   }
   .item-pricing__button {
-    margin-bottom: 64px;
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 400px) {
