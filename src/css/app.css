@@ -626,7 +626,7 @@ img {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  margin: 64px 0;
+  margin: 64px 0 0;
   text-align: center;
   font-size: 12.8px;
   line-height: 150%;
@@ -697,10 +697,11 @@ img {
     margin-top: 16px;
   }
   .item-pricing__button {
-    padding: 14px;
+    padding: 14px 115px;
   }
   .item-pricing__text {
     margin: 64px 0;
+    padding: 0 28px;
   }
 }
 @media (max-width: 400px) {
