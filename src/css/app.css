@@ -576,9 +576,9 @@ img {
 }
 @media (min-width: 1199px) {
   .pricing-section__item {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 366.66px;
-            flex: 1 1 366.66px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 366.66px;
+            flex: 0 1 366.66px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
