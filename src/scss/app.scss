@@ -188,7 +188,7 @@ img {
   // .pricing-section__item
   &__item {
     flex: 1 1 366.66px;
-    
+    height: 615px;
     text-align: center;
 
     /*display: flex;
@@ -226,7 +226,7 @@ img {
   // .item-pricing__title
   &__title {
     //flex: 0 1 auto;
-    margin-top: 23px;
+    margin-top: 24px;
     font-size: 24px;
     line-height: 36px;
   }
@@ -235,7 +235,7 @@ img {
     //flex: 0 1 auto;
     font-size: 64px;
     line-height: 1em;
-    margin: 199px 0 0;
+    margin: 200px 0 0;
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -287,7 +287,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
   
   .pricing-section__title {
