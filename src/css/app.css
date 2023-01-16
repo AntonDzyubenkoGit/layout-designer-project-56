@@ -562,11 +562,6 @@ img {
           flex: 1 1 366.66px;
   height: 615px;
   text-align: center;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  */
 }
 .pricing-section__text {
   margin: 40px 0 0;
@@ -656,13 +651,6 @@ img {
   }
 }
 @media (max-width: 440px) {
-  /*.pricing-section__item {
-    flex: 1 1 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }*/
   .pricing-section__title {
     text-align: center;
     margin: 3px 0 47px;
@@ -1148,6 +1136,7 @@ img {
           column-gap: 50px;
   row-gap: 25px;
 }
+
 .card-discography {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1216,6 +1205,7 @@ img {
           column-gap: 50px;
   row-gap: 25px;
 }
+
 .card-similar {
   display: -webkit-box;
   display: -ms-flexbox;
