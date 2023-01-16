@@ -691,6 +691,8 @@ img {
     margin-top: 16px;
   }
   .item-pricing__button {
+    margin-top: 40px;
+    display: inline-block;
     padding: 14px 114px;
   }
   .item-pricing__text {
